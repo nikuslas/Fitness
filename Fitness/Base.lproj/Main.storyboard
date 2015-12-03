@@ -25,25 +25,38 @@
             </objects>
             <point key="canvasLocation" x="156" y="239"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Exercice-->
         <scene sceneID="HeH-7x-aNb">
             <objects>
-                <tableViewController id="K66-1N-7d3" sceneMemberID="viewController">
+                <tableViewController id="K66-1N-7d3" customClass="ExerciceTableViewController" customModule="Fitness" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="NSD-Q0-TPy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BQz-2S-BXM">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ExerciceCell" rowHeight="55" id="BQz-2S-BXM" customClass="ExerciceCell" customModule="Fitness" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BQz-2S-BXM" id="OaM-Oa-mdA">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="54"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exercice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXT-Gl-qKG">
+                                            <rect key="frame" x="8" y="11" width="326" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <animations/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="nameLabel" destination="qXT-Gl-qKG" id="lwh-xg-Ben"/>
+                                    <segue destination="SEA-Fb-0Uh" kind="show" id="W6Q-nr-19W"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -51,26 +64,26 @@
                             <outlet property="delegate" destination="K66-1N-7d3" id="Wef-Ci-29j"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="rH0-eL-zjM"/>
+                    <navigationItem key="navigationItem" title="Exercice" id="rH0-eL-zjM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ODH-Nl-L3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1609" y="603"/>
+            <point key="canvasLocation" x="1387.5" y="602.5"/>
         </scene>
         <!--Table View Controller-->
-        <scene sceneID="LEz-fo-wxc">
+        <scene sceneID="5vK-bj-Lw2">
             <objects>
-                <tableViewController id="Pav-gQ-1Hn" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ncT-4o-8GS">
+                <tableViewController id="SEA-Fb-0Uh" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Opu-a1-NjM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KSp-By-6JI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Xa0-Bx-pg1">
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KSp-By-6JI" id="xHi-K3-UAa">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xa0-Bx-pg1" id="yYG-e6-xWA">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
@@ -79,22 +92,154 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
+                            <outlet property="dataSource" destination="SEA-Fb-0Uh" id="PNo-EK-Vwr"/>
+                            <outlet property="delegate" destination="SEA-Fb-0Uh" id="WJN-OR-KA6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="hgJ-zm-HnS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWZ-La-pqG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1891.5" y="602.5"/>
+        </scene>
+        <!--Program-->
+        <scene sceneID="LEz-fo-wxc">
+            <objects>
+                <tableViewController id="Pav-gQ-1Hn" customClass="ProgramTableViewController" customModule="Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ncT-4o-8GS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ProgramCell" rowHeight="55" id="KSp-By-6JI" customClass="ProgramCell" customModule="Fitness" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="55"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KSp-By-6JI" id="xHi-K3-UAa">
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="54"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Program" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1t-PB-2Uc">
+                                            <rect key="frame" x="8" y="11" width="326" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="nameLabel" destination="B1t-PB-2Uc" id="Nxp-XG-NG2"/>
+                                    <segue destination="cpp-wp-98r" kind="presentation" identifier="EditProgram" id="aQe-qM-pvZ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
                             <outlet property="dataSource" destination="Pav-gQ-1Hn" id="mto-0g-SFw"/>
                             <outlet property="delegate" destination="Pav-gQ-1Hn" id="jrf-GS-mJN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="w3R-St-Hfe"/>
+                    <navigationItem key="navigationItem" title="Program" id="w3R-St-Hfe">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bMZ-vG-Cmn">
+                            <connections>
+                                <segue destination="cpp-wp-98r" kind="presentation" identifier="Add Program" id="0Tp-GH-JDA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QE4-DX-dvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1609.5" y="-194.5"/>
+            <point key="canvasLocation" x="1387.5" y="-194.5"/>
         </scene>
-        <!--Item-->
+        <!--Add Program-->
+        <scene sceneID="GAl-Ly-uQH">
+            <objects>
+                <tableViewController id="yKF-RN-5TZ" customClass="ProgramDetailTableViewController" customModule="Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="1kN-TX-1PJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Program Name" id="ryn-89-AeT">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="y4h-ah-79I">
+                                        <rect key="frame" x="0.0" y="114" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y4h-ah-79I" id="SB5-zQ-121">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="tap program name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nIe-rK-KwM">
+                                                    <rect key="frame" x="8" y="7" width="359" height="30"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="yKF-RN-5TZ" id="YoV-Ze-0ke"/>
+                            <outlet property="delegate" destination="yKF-RN-5TZ" id="Lue-YX-kPv"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Add Program" id="Oxp-9S-Re7">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5IF-79-Axr">
+                            <connections>
+                                <segue destination="3MS-fR-mp8" kind="unwind" identifier="cancelToProgramTableViewController" unwindAction="cancelToProgramTableViewController:" id="ZeA-jK-SgO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="I16-r0-9bt">
+                            <connections>
+                                <segue destination="3MS-fR-mp8" kind="unwind" identifier="SaveProgramDetail" unwindAction="saveProgramDetail:" id="50k-eq-gOt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nameProgram" destination="nIe-rK-KwM" id="5By-Pm-PAh"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CNn-IE-Igu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="3MS-fR-mp8" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2351.5" y="-194.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qhE-Bv-BSe">
+            <objects>
+                <navigationController id="cpp-wp-98r" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8W8-e2-wwC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yKF-RN-5TZ" kind="relationship" relationship="rootViewController" id="de4-Ql-fnj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eyv-gw-kgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1891.5" y="-194.5"/>
+        </scene>
+        <!--Program-->
         <scene sceneID="Mjh-Qm-1JX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a8S-Ux-MAd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="DRS-Dw-u3W"/>
+                <navigationController title="Program" automaticallyAdjustsScrollViewInsets="NO" id="a8S-Ux-MAd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Program" image="Players" id="DRS-Dw-u3W"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wJF-Sj-8Z4">
@@ -111,11 +256,11 @@
             </objects>
             <point key="canvasLocation" x="797.5" y="-194.5"/>
         </scene>
-        <!--Item-->
+        <!--Exercice-->
         <scene sceneID="jPe-oz-wWI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OhG-jL-Dxp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="tKl-3f-CvY"/>
+                <navigationController title="Exercice" automaticallyAdjustsScrollViewInsets="NO" id="OhG-jL-Dxp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Exercice" image="Gestures" id="tKl-3f-CvY"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ccj-mL-6HQ">
@@ -133,4 +278,11 @@
             <point key="canvasLocation" x="797" y="603"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures" width="30" height="30"/>
+        <image name="Players" width="30" height="30"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="aQe-qM-pvZ"/>
+    </inferredMetricsTieBreakers>
 </document>

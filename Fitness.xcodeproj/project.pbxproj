@@ -13,6 +13,15 @@
 		763AD7191C0F49DA00847D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763AD7181C0F49DA00847D59 /* Assets.xcassets */; };
 		763AD71C1C0F49DA00847D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763AD71A1C0F49DA00847D59 /* LaunchScreen.storyboard */; };
 		763AD7271C0F49DB00847D59 /* FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763AD7261C0F49DB00847D59 /* FitnessTests.swift */; };
+		76F06FF31C0F51DB004991F7 /* ProgramTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF21C0F51DB004991F7 /* ProgramTableViewController.swift */; };
+		76F06FF51C0F5216004991F7 /* ExerciceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */; };
+		76F06FF71C0F538D004991F7 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF61C0F538D004991F7 /* Program.swift */; };
+		76F06FF91C0F5408004991F7 /* Exercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF81C0F5408004991F7 /* Exercice.swift */; };
+		76F06FFB1C0F5480004991F7 /* ProgramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FFA1C0F5480004991F7 /* ProgramData.swift */; };
+		76F06FFD1C0F548C004991F7 /* ExerciceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FFC1C0F548C004991F7 /* ExerciceData.swift */; };
+		76F06FFF1C0F5BE1004991F7 /* ProgramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FFE1C0F5BE1004991F7 /* ProgramCell.swift */; };
+		76F070011C0F5C14004991F7 /* ExerciceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F070001C0F5C14004991F7 /* ExerciceCell.swift */; };
+		76F070031C0F61CC004991F7 /* ProgramDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F070021C0F61CC004991F7 /* ProgramDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		763AD7221C0F49DB00847D59 /* FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		763AD7261C0F49DB00847D59 /* FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTests.swift; sourceTree = "<group>"; };
 		763AD7281C0F49DB00847D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F06FF21C0F51DB004991F7 /* ProgramTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramTableViewController.swift; sourceTree = "<group>"; };
+		76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciceTableViewController.swift; sourceTree = "<group>"; };
+		76F06FF61C0F538D004991F7 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		76F06FF81C0F5408004991F7 /* Exercice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice.swift; sourceTree = "<group>"; };
+		76F06FFA1C0F5480004991F7 /* ProgramData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramData.swift; sourceTree = "<group>"; };
+		76F06FFC1C0F548C004991F7 /* ExerciceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciceData.swift; sourceTree = "<group>"; };
+		76F06FFE1C0F5BE1004991F7 /* ProgramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramCell.swift; sourceTree = "<group>"; };
+		76F070001C0F5C14004991F7 /* ExerciceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciceCell.swift; sourceTree = "<group>"; };
+		76F070021C0F61CC004991F7 /* ProgramDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +97,19 @@
 			children = (
 				763AD7111C0F49DA00847D59 /* AppDelegate.swift */,
 				763AD7131C0F49DA00847D59 /* ViewController.swift */,
+				76F06FF61C0F538D004991F7 /* Program.swift */,
+				76F06FFA1C0F5480004991F7 /* ProgramData.swift */,
+				76F06FFE1C0F5BE1004991F7 /* ProgramCell.swift */,
+				76F06FF21C0F51DB004991F7 /* ProgramTableViewController.swift */,
+				76F070021C0F61CC004991F7 /* ProgramDetailTableViewController.swift */,
 				763AD7151C0F49DA00847D59 /* Main.storyboard */,
 				763AD7181C0F49DA00847D59 /* Assets.xcassets */,
 				763AD71A1C0F49DA00847D59 /* LaunchScreen.storyboard */,
 				763AD71D1C0F49DA00847D59 /* Info.plist */,
+				76F06FF81C0F5408004991F7 /* Exercice.swift */,
+				76F06FFC1C0F548C004991F7 /* ExerciceData.swift */,
+				76F070001C0F5C14004991F7 /* ExerciceCell.swift */,
+				76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -197,8 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F06FF71C0F538D004991F7 /* Program.swift in Sources */,
+				76F070011C0F5C14004991F7 /* ExerciceCell.swift in Sources */,
+				76F06FF31C0F51DB004991F7 /* ProgramTableViewController.swift in Sources */,
+				76F06FF51C0F5216004991F7 /* ExerciceTableViewController.swift in Sources */,
+				76F06FF91C0F5408004991F7 /* Exercice.swift in Sources */,
+				76F06FFF1C0F5BE1004991F7 /* ProgramCell.swift in Sources */,
 				763AD7141C0F49DA00847D59 /* ViewController.swift in Sources */,
+				76F070031C0F61CC004991F7 /* ProgramDetailTableViewController.swift in Sources */,
+				76F06FFB1C0F5480004991F7 /* ProgramData.swift in Sources */,
 				763AD7121C0F49DA00847D59 /* AppDelegate.swift in Sources */,
+				76F06FFD1C0F548C004991F7 /* ExerciceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +424,7 @@
 				763AD72D1C0F49DB00847D59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763AD72E1C0F49DB00847D59 /* Build configuration list for PBXNativeTarget "FitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +433,7 @@
 				763AD7301C0F49DB00847D59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
