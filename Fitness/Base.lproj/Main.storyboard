@@ -46,7 +46,7 @@
                                             <rect key="frame" x="8" y="11" width="326" height="21"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -124,7 +124,7 @@
                                             <rect key="frame" x="8" y="11" width="326" height="21"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -163,7 +163,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Program Name" id="ryn-89-AeT">
                                 <cells>
@@ -239,7 +239,7 @@
         <scene sceneID="Mjh-Qm-1JX">
             <objects>
                 <navigationController title="Program" automaticallyAdjustsScrollViewInsets="NO" id="a8S-Ux-MAd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Program" image="Players" id="DRS-Dw-u3W"/>
+                    <tabBarItem key="tabBarItem" title="Program" image="Players.png" id="DRS-Dw-u3W"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wJF-Sj-8Z4">
@@ -260,7 +260,7 @@
         <scene sceneID="jPe-oz-wWI">
             <objects>
                 <navigationController title="Exercice" automaticallyAdjustsScrollViewInsets="NO" id="OhG-jL-Dxp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Exercice" image="Gestures" id="tKl-3f-CvY"/>
+                    <tabBarItem key="tabBarItem" title="Exercice" image="Gestures.png" id="tKl-3f-CvY"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ccj-mL-6HQ">
@@ -279,8 +279,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Gestures" width="30" height="30"/>
-        <image name="Players" width="30" height="30"/>
+        <image name="Gestures.png" width="30" height="30"/>
+        <image name="Players.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="aQe-qM-pvZ"/>

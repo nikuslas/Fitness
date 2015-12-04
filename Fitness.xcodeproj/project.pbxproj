@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7638FAC51C11E23F009DDD11 /* FitnessModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7638FAC31C11E23F009DDD11 /* FitnessModel.xcdatamodeld */; };
 		763AD7121C0F49DA00847D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763AD7111C0F49DA00847D59 /* AppDelegate.swift */; };
 		763AD7141C0F49DA00847D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763AD7131C0F49DA00847D59 /* ViewController.swift */; };
 		763AD7171C0F49DA00847D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763AD7151C0F49DA00847D59 /* Main.storyboard */; };
 		763AD7191C0F49DA00847D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763AD7181C0F49DA00847D59 /* Assets.xcassets */; };
 		763AD71C1C0F49DA00847D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763AD71A1C0F49DA00847D59 /* LaunchScreen.storyboard */; };
 		763AD7271C0F49DB00847D59 /* FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763AD7261C0F49DB00847D59 /* FitnessTests.swift */; };
+		769349021C10A3330062DE6A /* Gestures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 769349011C10A3330062DE6A /* Gestures@3x.png */; };
+		769349041C10A3420062DE6A /* Players@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 769349031C10A3420062DE6A /* Players@3x.png */; };
 		76F06FF31C0F51DB004991F7 /* ProgramTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF21C0F51DB004991F7 /* ProgramTableViewController.swift */; };
 		76F06FF51C0F5216004991F7 /* ExerciceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */; };
 		76F06FF71C0F538D004991F7 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F06FF61C0F538D004991F7 /* Program.swift */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7638FAC41C11E23F009DDD11 /* FitnessModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessModel.xcdatamodel; sourceTree = "<group>"; };
 		763AD70E1C0F49DA00847D59 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		763AD7111C0F49DA00847D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		763AD7131C0F49DA00847D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		763AD7221C0F49DB00847D59 /* FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		763AD7261C0F49DB00847D59 /* FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTests.swift; sourceTree = "<group>"; };
 		763AD7281C0F49DB00847D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769349011C10A3330062DE6A /* Gestures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@3x.png"; sourceTree = "<group>"; };
+		769349031C10A3420062DE6A /* Players@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@3x.png"; sourceTree = "<group>"; };
 		76F06FF21C0F51DB004991F7 /* ProgramTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramTableViewController.swift; sourceTree = "<group>"; };
 		76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciceTableViewController.swift; sourceTree = "<group>"; };
 		76F06FF61C0F538D004991F7 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				763AD7111C0F49DA00847D59 /* AppDelegate.swift */,
+				7638FAC31C11E23F009DDD11 /* FitnessModel.xcdatamodeld */,
 				763AD7131C0F49DA00847D59 /* ViewController.swift */,
 				76F06FF61C0F538D004991F7 /* Program.swift */,
 				76F06FFA1C0F5480004991F7 /* ProgramData.swift */,
@@ -110,6 +117,8 @@
 				76F06FFC1C0F548C004991F7 /* ExerciceData.swift */,
 				76F070001C0F5C14004991F7 /* ExerciceCell.swift */,
 				76F06FF41C0F5216004991F7 /* ExerciceTableViewController.swift */,
+				769349011C10A3330062DE6A /* Gestures@3x.png */,
+				769349031C10A3420062DE6A /* Players@3x.png */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -207,6 +216,8 @@
 				763AD71C1C0F49DA00847D59 /* LaunchScreen.storyboard in Resources */,
 				763AD7191C0F49DA00847D59 /* Assets.xcassets in Resources */,
 				763AD7171C0F49DA00847D59 /* Main.storyboard in Resources */,
+				769349021C10A3330062DE6A /* Gestures@3x.png in Resources */,
+				769349041C10A3420062DE6A /* Players@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +245,7 @@
 				76F070031C0F61CC004991F7 /* ProgramDetailTableViewController.swift in Sources */,
 				76F06FFB1C0F5480004991F7 /* ProgramData.swift in Sources */,
 				763AD7121C0F49DA00847D59 /* AppDelegate.swift in Sources */,
+				7638FAC51C11E23F009DDD11 /* FitnessModel.xcdatamodeld in Sources */,
 				76F06FFD1C0F548C004991F7 /* ExerciceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +448,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7638FAC31C11E23F009DDD11 /* FitnessModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7638FAC41C11E23F009DDD11 /* FitnessModel.xcdatamodel */,
+			);
+			currentVersion = 7638FAC41C11E23F009DDD11 /* FitnessModel.xcdatamodel */;
+			path = FitnessModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 763AD7061C0F49DA00847D59 /* Project object */;
 }
